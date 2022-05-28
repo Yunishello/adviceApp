@@ -33,39 +33,48 @@
       }
     </style>
   </head>
-  <body>
+  <body aria-label="Advice Generator">
     <main class="row mt-5 container-fluid">
       <div class="col-md-3"></div>
       <div
         class="col-md-6 col-sm-12 align-content-center justify-content-center"
       >
-        <div class="card text-center my-5 py-5">
+        <div aria-label="Card container" class="card text-center my-5 py-5">
           <div class="card-body">
-            <h4 class="advice align-self-center">
+            <h4 aria-label="Advice number" class="advice align-self-center">
               Advice # <span class="advice-id">0</span>
             </h4>
-            <h1 class="qoute">
+            <h1
+              aria-label="Please click the button below to get an advice"
+              class="qoute"
+            >
               "Please click the button below to get an advice."
             </h1>
             <div>
               <img class="line" src="images/pdd.svg" alt="" />
             </div>
-            <a href="#" class="circle-dice rounded-circle">
+            <a
+              href="#"
+              aria-label="Dice button"
+              class="circle-dice rounded-circle"
+            >
               <img class="dice" src="images/icon-dice.svg" alt="" />
             </a>
           </div>
         </div>
-
-        <div class="button-container"></div>
       </div>
       <div class="col-md-3 offset-md-4"></div>
     </main>
 
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    <footer aria-label="Footer container" class="attribution">
+      <span aria-label="Challenge by"> Challenge by</span>
+      <a
+        aria-label="Frontend Mentor"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">DevYuny</a>.
+      >. <span aria-label="Coded by"> Coded by</span>
+      <a aria-label="devYuny" href="#">DevYuny</a>.
     </footer>
   </body>
 
